@@ -39,6 +39,7 @@ p.content {
     font-size: 14px;
     color: hsl(233, 8%, 62%);
     padding-bottom: 20px;
+    /* text-align: justify; */
 }
 
 img.background-image {
@@ -65,8 +66,45 @@ img.article-image {
 }
 
 div.footer-background {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #2D314D;
     color: whitesmoke;
+}
+
+div.footer-logo {
+    padding-bottom: 30px;
+    padding-left: 2rem;
+}
+
+i.footer-icon {
+    color: white;
+    font-size: 24px;
+    padding-left: 2rem;
+}
+
+i.footer-icon:hover {
+    color: #32d165;
+    cursor: pointer;    
+}
+
+a.footer-link {
+    color: white;
+    font-size: 14px;
+    padding-bottom: 0.5rem;
+}
+
+a.footer-link:hover {
+    color: #32d165;
+    cursor: pointer;  
+}
+
+div.footer-btn {
+    padding-bottom: 0.5rem;
+    padding-right: 2rem;
+}
+
+p.content b {
+    color: hsl(233, 26%, 24%);
+    font-size: 16px;
 }
