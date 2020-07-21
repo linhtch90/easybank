@@ -2,6 +2,7 @@ body {
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
     color: hsl(233, 26%, 24%);
+    /* margin-top: 0.5rem; */
 }
 
 button.btn-custom {
@@ -12,12 +13,18 @@ button.btn-custom {
 }
 
 .container.header-container {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    /* padding-top: 0.5rem; */
+    /* padding-bottom: 0.5rem; */
+    background-color: white;
 }
 
 .nav-link.font-color {
     color: hsl(233, 8%, 62%);
+}
+
+.nav-link:hover {
+    background-color: #2D314D;
+    color: #33D35E;
 }
 
 h1.title-1 {
@@ -85,7 +92,7 @@ i.footer-icon {
 
 i.footer-icon:hover {
     color: #32d165;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 a.footer-link {
@@ -96,7 +103,7 @@ a.footer-link {
 
 a.footer-link:hover {
     color: #32d165;
-    cursor: pointer;  
+    cursor: pointer;
 }
 
 div.footer-btn {
