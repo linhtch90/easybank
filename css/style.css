@@ -7,6 +7,7 @@ body {
 
 button.btn-custom {
     background-image: linear-gradient(to right, #33D35E 0%, #2EC3A3 51%, #2AB6D9 100%);
+    color: white;
     border: 0px solid transparent;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -18,13 +19,13 @@ button.btn-custom {
     background-color: white;
 }
 
-.nav-link.font-color {
+a.nav-link.font-color {
     color: hsl(233, 8%, 62%);
 }
 
-.nav-link:hover {
+a.nav-link:hover {
     background-color: #2D314D;
-    color: #33D35E;
+    color: #33D35E !important;
 }
 
 h1.title-1 {
@@ -109,9 +110,59 @@ a.footer-link:hover {
 div.footer-btn {
     padding-bottom: 0.5rem;
     padding-right: 2rem;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 p.content b {
     color: hsl(233, 26%, 24%);
     font-size: 16px;
+}
+
+div.col-md-12 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+div.small-screen-content {
+
+}
+
+@media (max-width: 576px) {
+div.small-screen-content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+div.footer-icon {
+    padding-bottom: 2rem;
+}
+
+img.article-image {
+    width: 80%;
+    height: 18rem;
+    padding-bottom: 20px;
+}
+
+div#footer-button {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div#footer-copyright {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div.footer-btn {
+    padding-bottom: 0.5rem;
+    padding-right: 0rem;
+    justify-content: center;
+}
+
 }
